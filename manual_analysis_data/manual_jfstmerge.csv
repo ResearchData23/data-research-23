@@ -26,8 +26,8 @@
 25;c96f96dbd7af6c8ea8ed38e44a0499e9a6941103; src/test/resources/bdd/samples/JavaConcepts.java;unhandled refactoring conflict;rename class;0;javaparser
 26;02686a5216af96fadd661ae3d61fe5c4eda76bd3;javaparser-symbol-solver-testing/src/test/java/com/github/javaparser/symbolsolver/javaparsermodel/declarations/JavaParserEnumDeclarationTest.java;formatting conflict;none;0;javaparser
 27;5e362a840449a04cede08e30cc211b0495f16260;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/GenericVisitorAdapter.java;true positive;none;0;realm
-28;463742ab0ada407592d58af772e4e39e0b5b38c7;realm-annotations-processor/src/test/resources/io/realm/SimpleRealmProxy.java;4;none;0;realm
-29;463742ab0ada407592d58af772e4e39e0b5b38c7;realm-annotations-processor/src/test/resources/io/realm/SimpleRealmProxy.java;4;none;0;realm
+28;463742ab0ada407592d58af772e4e39e0b5b38c7;realm-annotations-processor/src/test/resources/io/realm/SimpleRealmProxy.java;false positive;none;0;realm
+29;463742ab0ada407592d58af772e4e39e0b5b38c7;realm-annotations-processor/src/test/resources/io/realm/SimpleRealmProxy.java;false positive;none;0;realm
 30;26c34ba7f398e73a01baeaee27a64ff40260647c;realm/src/main/java/io/realm/Realm.java;true positive;none;0;realm
 31;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;none;0;realm
 32;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;change method declaration;0;realm
@@ -75,8 +75,8 @@
 74;f10f48c87d828881dda9912f050bccf8bb36776c;core/src/test/resources/com/google/errorprone/bugpatterns/ArrayToStringPositiveCases.java;unhandled refactoring conflict;rename class;0;error-prone
 75;f10f48c87d828881dda9912f050bccf8bb36776c;core/src/test/resources/com/google/errorprone/bugpatterns/ArrayToStringNegativeCases.java;unhandled refactoring conflict;rename class;0;error-prone
 76;d51253011690def06db835d5ad605ca134c94d84;core/src/main/java/com/google/errorprone/ErrorProneScanner.java;true positive;none;0;error-prone
-77;d017a5411de869929dd03efc6c952aa708a9bd2a;core/src/main/java/com/google/errorprone/matchers/IsSubtypeOf.java;unhandled refactoring conflict;7;1;error-prone
-78;d017a5411de869929dd03efc6c952aa708a9bd2a;core/src/main/java/com/google/errorprone/matchers/Matchers.java;unhandled refactoring conflict;7;1;error-prone
+77;d017a5411de869929dd03efc6c952aa708a9bd2a;core/src/main/java/com/google/errorprone/matchers/IsSubtypeOf.java;unhandled refactoring conflict;more than one type;1;error-prone
+78;d017a5411de869929dd03efc6c952aa708a9bd2a;core/src/main/java/com/google/errorprone/matchers/Matchers.java;unhandled refactoring conflict;more than one type;1;error-prone
 79;f25c38b51e0f35ea1637832e1ea6680c343203e2;core/src/main/java/com/google/errorprone/bugpatterns/covariant_equals/CovariantEquals.java;unhandled refactoring conflict;rename class;1;error-prone
 80;66a86d1652c383ea3921d03f49f444f1d1000765;core/src/main/java/com/google/errorprone/bugpatterns/empty_if_statement/EmptyIfStatement.java;unhandled refactoring conflict;change method declaration;1;error-prone
 81;66a86d1652c383ea3921d03f49f444f1d1000765;core/src/main/java/com/google/errorprone/bugpatterns/covariant_equals/CovariantEquals.java;unhandled refactoring conflict;change method declaration;1;error-prone
